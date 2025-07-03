@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADEED9;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.enterAmount {
+    margin: 2rem 0rem 2rem 0rem;
+
+}
+
+#input {
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.selectContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.from {
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    height: 2rem;
+    border-radius: 0.5rem;
+
+}
+
+.from img {
+    height: 2rem;
+}
+
+.to {
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.to img {
+    height: 2rem;
+}
+
+.exchange {
+    margin-top: 1.7rem;
+}
+
+.fromOpt p {
+    font-size: 0.8rem;
+}
+
+.toOpt p {
+    font-size: 0.8rem;
+}
+
+.msg {
+    margin-bottom: 1rem;
+}
+
+#selectFrom:active {
+    border: none;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem 0 0.5rem 0;
+    border-radius: 1rem;
+    color: white;
+    background-color: #161D6F;
+}
